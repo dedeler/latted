@@ -21,7 +21,7 @@ end
 gem 'therubyracer'  # If using Ruby
 gem 'less-rails-bootstrap'
 gem 'jquery-rails'
-
+gem 'devise'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
