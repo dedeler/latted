@@ -1,5 +1,8 @@
 Sociality::Application.routes.draw do
 
+  resources :item_catalogs
+
+
   devise_for :users
   root :to => "home#index"
 
