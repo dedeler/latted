@@ -1,5 +1,8 @@
 Sociality::Application.routes.draw do
 
+  resources :item_categories
+
+
   resources :item_catalogs
 
 
