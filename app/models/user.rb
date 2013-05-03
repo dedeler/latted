@@ -32,8 +32,8 @@ class User < ActiveRecord::Base
   has_many :followers, :through => :reverse_relationships, :source => :follower
 
   ## LIKES
-  has_many :likes
-  has_many :liked_items, :through => :likes, :source => :item
+  has_many :user_actions
+  has_many :actions, :through => :user_actions, :source => :user_action
 
 
 
@@ -59,8 +59,21 @@ class User < ActiveRecord::Base
     followings.find_by_followed_id(followed).destroy
   end
 
-  def likes
-    self.liked_items
-  end
 
+  def method_missing(method_id, *arguments)
+    if match = /([_a-zA-Z]\w*)_it/.match(method_id.to_s)
+      action_name = match[1]
+      action_type = UserActionType.find_by_name(action_name)
+      action = action_type.user_actions.new
+      action.user = self
+      action.item = arguments[0]
+      action_type.save
+      action.save
+    elsif match = /find_my_([_a-zA-Z]\w*)s/.match(method_id.to_s)
+      action_name = match[1]
+      user_actions.joins('LEFT JOIN user_action_types ON user_action_types.id = user_actions.user_action_type_id').where('user_action_types.name = "'+ action_name +'"')
+    else
+      super
+    end
+  end
 end
