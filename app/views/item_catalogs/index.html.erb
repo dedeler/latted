@@ -1,0 +1,25 @@
+<h1>Listing item_catalogs</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>User</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @item_catalogs.each do |item_catalog| %>
+  <tr>
+    <td><%= item_catalog.title %></td>
+    <td><%= item_catalog.user_id %></td>
+    <td><%= link_to 'Show', item_catalog %></td>
+    <td><%= link_to 'Edit', edit_item_catalog_path(item_catalog) %></td>
+    <td><%= link_to 'Destroy', item_catalog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Item catalog', new_item_catalog_path %>
