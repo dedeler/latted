@@ -1,5 +1,8 @@
 Sociality::Application.routes.draw do
 
+  resources :attachments
+
+
   resources :item_categories
 
 
