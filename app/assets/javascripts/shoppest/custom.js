@@ -92,10 +92,7 @@ function productSlider() {
 
 // link fancybox plugin on product detail
 function productFancyBox() {
-	$(".fancybox").fancybox({
-		openEffect	: 'none',
-		closeEffect	: 'none'
-	});
+
 }
 
 // dropdown mainnav
@@ -118,48 +115,13 @@ function dropdownMainNav() {
 
 // open and hide the side panel
 function openSidePanel() {
-	var widgetToggleLink = $('.switcher > a.Widget-toggle-link'),
-		$switcher = $(".switcher");
 
-	widgetToggleLink.on('click', function(e){
-		e.preventDefault();
-		var left = $('.switcher').css('left');
-		if(left <= '-170px'){
-			$switcher.animate({
-				left: 0
-			}, 200, function(){
-				$(this).find('a.Widget-toggle-link').text('-');
-			});
-		}else{
-			$switcher.animate({
-				left: '-170px'
-			}, 200, function(){
-				$(this).find('a.Widget-toggle-link').text('+');
-			});
-		}
-	});
 }
 
 
 // change background pattern
 function changeBackgroundPattern() {
-	// cookie vars
-	var cookie_name1 = "site_pattern";
-	var cookie_options1 = { path: '/', expires: 30 };
-	var get_cookie1 = $.cookie('site_pattern');
-	if(get_cookie1 == null){get_cookie1 = 'bgnoise_lg'}
-	// backgrounds
-	$('head')
-	.append('<link rel="stylesheet" id="active-bg" href="css/backgrounds/'+get_cookie1+'.css">');
 
-	$(".switcher > .switcher-content > .pattern-switch").find('a').bind('click', function(e) {
-		$('#active-bg').remove();
-		e.preventDefault();
-		var bgName = $(this).text();
-		$.cookie(cookie_name1, bgName, cookie_options1);
-		$('head')
-		.append('<link rel="stylesheet" id="active-bg" href="css/backgrounds/'+bgName+'.css">');
-	});
 }
 
 

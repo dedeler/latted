@@ -1,0 +1,264 @@
+
+.zalki{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.info-case-text{
+
+}
+
+.box{
+
+	/* Important parameters of style start */
+	position: relative;
+	overflow: hidden;
+	float: left;
+	/* Important parameters of style end */
+
+	background: #fff;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 5px #f4f4f4 solid;
+	top:0;
+	left: 0;
+
+}
+.popup{
+
+	/* Important parameters of style start */
+	display: none;
+	text-align: center;
+	position: absolute;
+	/* Important parameters of style end */
+	height: 70px;
+	width: 70px;
+	background: #753ffe url(img/up.png) no-repeat center center;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Safari and Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);
+}
+.popup2{
+
+	/* Important parameters of style start */
+	display: none;
+	text-align: center;
+	position: absolute;
+	/* Important parameters of style end */
+	height: 70px;
+	width: 70px;
+	background: #fe3f3f url(img/down.png) no-repeat center center;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Safari and Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);
+}
+
+.popup3{
+
+    /* Important parameters of style start */
+    display: none;
+    text-align: center;
+    position: absolute;
+    /* Important parameters of style end */
+    height: 70px;
+    width: 70px;
+    background: #fe3f3f url(img/down.png) no-repeat center center;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Safari and Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=4);
+}
+
+
+
+
+.style-one .popup{
+	height: 70px;
+	width: 70px;
+	border-radius: 5px;
+	background: #D9D71B url(img/search.png) no-repeat center center;
+}
+.style-one2 .overlayPop{
+	background: #fff;
+}
+
+.style-one2 .popup{
+	height: 80px;
+	width: 80px;
+	border-radius: 5px;
+	line-height: 80px;
+	background: #e92171;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	border-radius: 70px;
+}
+
+
+.style-two .popup{
+	height: 70px;
+	width: 70px;
+	border-radius: 5px;
+	background: #753ffe url(img/up.png) no-repeat center center;
+
+}
+.style-two .popup2{
+	height: 70px;
+	width: 70px;
+	border-radius: 5px;
+	background: #fe3f3f url(img/down.png) no-repeat center center;
+
+}
+
+
+.style-two2 .popup{
+	height: 70px;
+	width: 70px;
+	border-radius: 70px;
+	background: #000 url(img/arrow.png) no-repeat center center;
+
+}
+.style-two2 .popup2{
+	height: 70px;
+	width: 70px;
+	border-radius: 70px;
+	background: #fff url(img/search-black.png) no-repeat center center;
+
+}
+
+
+
+.style-two3 .popup{
+	height: 70px;
+	width: 70px;
+	border-radius: 2px;
+	background: #9ae02f url(img/chat.png) no-repeat center center;
+
+}
+.style-two3 .popup2{
+	height: 70px;
+	width: 70px;
+	border-radius: 2px;
+	background: #54cfff url(img/microphone.png) no-repeat center center;
+
+}
+
+
+.overlayPop{
+
+	/* Important parameters of style start */
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	/* Important parameters of style end */	
+
+	background: #000;
+}
+
+
+.overlayDrive{
+
+	/* Important parameters of style start */
+	position: absolute;
+	overflow: hidden;
+	/* Important parameters of style end */	
+
+	background: #000;
+	color: white;
+
+}
+.textBox{
+
+	/* Important parameters of style start */
+	position: relative;
+	float: left;
+	/* Important parameters of style end */	
+
+}
+.textTitle {
+
+	/* Important parameters of style start */
+	position: relative;
+	float: left;
+	/* Important parameters of style end */	
+
+	padding: 5px;
+	margin: 30px 10px 10px;
+	font-weight: bold;
+}
+
+
+
+.text-style1 {
+	background: red;
+	color: #fff;
+}
+.text-style2 {
+	background: #fff;
+	color: #000;
+	font-size: 14px;
+}
+.text-style3 {
+	background: #5B9E00;
+	color: #fff;
+	font-size: 14px;
+}
+.text-style4 {
+	background: #CFB187;
+	color: #212121;
+	font-size: 16px;
+}
+
+
+.title-style1{
+	background: #fff;
+	color: #000;
+	font-size: 26px;
+}
+.title-style2{
+	background: #1d9beb;
+	color: #fff;
+	font-size: 22px;
+}
+.title-style3{
+	background: #c71deb;
+	color: #fff;
+	font-size: 22px;
+}
+.title-style4{
+	background: #69321B;
+	color: #fff;
+	font-size: 26px;
+}
+
+.overlayDrive .textBox a{
+	font-size: 14px;
+	padding-left: 5px;
+	color: #000;
+
+	font-weight: bold;
+}
+.overlayDrive .textBox a:hover{
+	color: #2c2c2c;
+
+}
+
+
+.hProductItems .popup {
+    height: 50px;
+    width: 50px;
+}
+.hProductItems .popup2 {
+    height: 50px;
+    width: 50px;
+}
+.hProductItems .popup3 {
+    height: 50px;
+    width: 50px;
+}
+
+.hProductItems .like {
+}
