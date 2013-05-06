@@ -10,9 +10,9 @@
 ============================================================================
 # 2- General styling and reset mstyling
 ===========================================================================
-# 3- Header styling 
+# 3- Header styling
 ============================================================================
-# 4- footer styling 
+# 4- footer styling
 ==============================================================================
 # 5- element styling
 =============================================================================
@@ -1819,7 +1819,7 @@ footer {margin:72px 0 0 0;}
 	.switcher-content .pattern-switch a:hover {
 	    opacity: .7;
 	    -moz-opacity: .7;
-	    filter:alpha(opacity=70);  
+	    filter:alpha(opacity=70);
 	}
 
 
@@ -1936,7 +1936,7 @@ footer {margin:72px 0 0 0;}
 	}
 	/* cat-content */
 	.topHeader .pull-right.cart-content {
-		
+
 	}
 
 
@@ -1952,13 +1952,13 @@ footer {margin:72px 0 0 0;}
 		background:#f0f0f0;
 	}
 
-	
+
 	/*slideshow*/
 	#slideShow {
 		margin-bottom:24px;
 	}
 
-	
+
 	.hProductItems > li {
 		/*border:1px solid red;*/
 		width:47%;
@@ -2088,6 +2088,17 @@ footer {margin:72px 0 0 0;}
 		float: left;
 	}
 
+}
+
+.no-top-margin {
+    margin-top: 0px;
+}
+
+.user-items .vProductItemsTiny{
+    margin-left: 20px;
+}
+.user-items .vProductItemsTiny li{
+    margin-left: 12px;
 }
 
 
