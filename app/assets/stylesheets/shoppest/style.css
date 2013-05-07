@@ -2105,4 +2105,14 @@ footer {margin:72px 0 0 0;}
     margin-left: 12px;
 }
 
+.item-more {
+    display: none;
+    height: 80px;
+    background: #fb6f58;
+    position: relative;
+}
+
+.user-follow {
+    margin: 20px 0 0 4px;
+}
 
