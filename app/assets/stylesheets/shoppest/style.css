@@ -870,6 +870,8 @@ footer {margin:72px 0 0 0;}
 		padding:0;
 	}
 	.vProductItemsTiny .thumbImage {
+        height: 72px;
+        width: 72px;
 		float:left;
 		margin-right:6px;
 		padding: 3px;
