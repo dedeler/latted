@@ -92,7 +92,10 @@ function productSlider() {
 
 // link fancybox plugin on product detail
 function productFancyBox() {
-
+    $(".fancybox").fancybox({
+        openEffect	: 'none',
+        closeEffect	: 'none'
+    });
 }
 
 // dropdown mainnav
