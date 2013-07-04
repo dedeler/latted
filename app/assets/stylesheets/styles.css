@@ -324,7 +324,7 @@ a:focus,
 
 .main-pictures-cotainer {
   height: 504px;
-  background: #ffffff url(../img/work/collage.jpg ) repeat-x;
+  background: #ffffff url('/assets/img/work/collage.jpg') repeat-x;
 }
 
 .main-pictures-cotainer .content-text.v2 {
@@ -353,7 +353,7 @@ a:focus,
 .main-pictures-cotainer .content-text .subtitle .style-border {
   display: inline-block;
   padding-bottom: 80px;
-  background: url(../img/style-border.png ) repeat-x 0 80px;
+  background: url(/assets/img//style-border.png ) repeat-x 0 80px;
 }
 
 .main-pictures-cotainer .content-text.v2 .subtitle {
@@ -916,7 +916,7 @@ a:focus,
 
 .recent-posts .recent-post-container .recent-post hr.post-separator {
   margin: 30px 0;
-  background: url(../img/line-separator.png) no-repeat right -1px;
+  background: url(/assets/img//line-separator.png) no-repeat right -1px;
   border-top: 1px solid #D8D8D8;
   border-style: dotted;
 }
@@ -991,7 +991,7 @@ a:focus,
 
 .single-post hr.post-separator {
   margin: 30px 0;
-  background: url(../img/line-separator.png) no-repeat right -1px;
+  background: url(/assets/img//line-separator.png) no-repeat right -1px;
   border-top: 1px solid #D8D8D8;
   border-style: dotted;
 }
@@ -1463,7 +1463,7 @@ footer .footer-widgets .subscribe :-ms-input-placeholder {
 ///////////////////////////////////////////////////////////////////////////////////*/
 
 .search-results {
-  background: #ffffff url(../img/search-img.jpg) repeat-y center center;
+  background: #ffffff url(/assets/img//search-img.jpg) repeat-y center center;
 }
 
 .search-results .search-result-title {
@@ -1812,11 +1812,11 @@ footer .footer-widgets .subscribe :-ms-input-placeholder {
 }
 
 .checkbox:hover .icon-to-fade {
-  background: url("../img/checkbox.png") 0 -90px no-repeat;
+  background: url("/assets/img//checkbox.png") 0 -90px no-repeat;
 }
 
 .radio:hover .icon-to-fade {
-  background: url("../img/radio.png") 0 -90px no-repeat;
+  background: url("/assets/img//radio.png") 0 -90px no-repeat;
 }
 
 .checkbox input,
@@ -1882,7 +1882,7 @@ footer .footer-widgets .subscribe :-ms-input-placeholder {
   display: block;
   width: 20px;
   height: 20px;
-  background: url("../img/checkbox.png") -90px 0 no-repeat;
+  background: url("/assets/img//checkbox.png") -90px 0 no-repeat;
   opacity: 1;
   -webkit-transition: opacity 0.1s linear;
      -moz-transition: opacity 0.1s linear;
@@ -1901,7 +1901,7 @@ footer .footer-widgets .subscribe :-ms-input-placeholder {
 
 .radio .icon,
 .radio .icon-to-fade {
-  background-image: url("../img/radio.png");
+  background-image: url("/assets/img//radio.png");
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////
