@@ -124,16 +124,16 @@ a:focus,
   font-family: 'entypo';
   font-style: normal;
   font-weight: normal;
-  src: url('../font/entypo.eot');
-  src: url('../font/entypo.eot?#iefix') format('embedded-opentype'), url('../font/entypo.woff') format('woff'), url('../font/entypo.ttf') format('truetype'), url('../font/entypo.svg#entypo') format('svg');
+  src: url('assets/font/entypo.eot');
+  src: url('assets/font/entypo.eot?#iefix') format('embedded-opentype'), url('assets/font/entypo.woff') format('woff'), url('assets/font/entypo.ttf') format('truetype'), url('assets/font/entypo.svg#entypo') format('svg');
 }
 
 @font-face {
   font-family: 'entypo-social';
   font-style: normal;
   font-weight: normal;
-  src: url('../font/entypo-social.eot');
-  src: url('../font/entypo-social.eot?#iefix') format('embedded-opentype'), url('../font/entypo-social.woff') format('woff'), url('../font/entypo-social.ttf') format('truetype'), url('../font/entypo-social.svg#entypo-social') format('svg');
+  src: url('assets/font/entypo-social.eot');
+  src: url('assets/font/entypo-social.eot?#iefix') format('embedded-opentype'), url('assets/font/entypo-social.woff') format('woff'), url('assets/font/entypo-social.ttf') format('truetype'), url('assets/font/entypo-social.svg#entypo-social') format('svg');
 }
 
 .navbar-inverse-blue .navbar-inner {
