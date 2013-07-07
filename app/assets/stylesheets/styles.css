@@ -2253,3 +2253,7 @@ footer .footer-widgets .subscribe :-ms-input-placeholder {
     color: #fff;
     text-shadow: 0 1px 0 rgb(128, 128, 129);
 }
+
+.navbar .username{
+    color: #fff
+}
